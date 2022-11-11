@@ -1,0 +1,47 @@
+.cover-blue {
+  background: transparent;
+  width: 100vw;
+  height: 100vh;
+}
+
+.chat-title-customize {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.customize-message {
+  width: 220px;
+}
+
+.image-container{
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: #418dff;
+  z-index: -2;
+}
+.customize-scroll {
+  height: 216px;
+  overflow: auto;
+}
+.cutomize-row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.customize-info-text {
+  text-align: center;
+  font-weight: 300;
+  margin: 10px 0 30px;
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+.customize-chat {
+
+  height: 100vh;
+}
+
+.custom-tab-nav li button{
+  pointer-events: none;
+}

@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--color-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-gradient-bg {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff5e00),
+    to(#f1ca9b)
+  );
+  background: linear-gradient(to right, #003de9 0%, #63bbf9 100%);
+}
+
+.bg-gradient-tertiary-lr {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff5e00),
+    to(#f1ca9b)
+  );
+  background: linear-gradient(to right, #003de9 0%, #63bbf9 100%) !important;
+}
+
+.btn-gradient-bg-hover {
+  z-index: 1;
+  opacity: 0;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#5e8ee7),
+    to(#20326d)
+  );
+  background: linear-gradient(to right, #5e8fe8 0%, #243877 100%);
+  background-size: 99.99%;
+}
+
+.filter-list li {
+  color: #060221;
+  cursor: auto;
+}
+
+.max-w-100 {
+  max-width: 200px;
+}
+
+.contact-form input[type="submit"],
+.contact-form button[type="submit"] {
+  background: linear-gradient(to right, #1d2e69 0%, #6395f0 100%);
+}
+
+.iconbox h3 {
+  display: inline-block;
+  margin: 0 0 0.7em;
+  font-size: 23px;
+}
+
+.liquid-blog-item-gray {
+  background-color: #fffef1 !important;
+}
+
+.liquid-parallax-figure {
+  height: 100vh !important;
+}
+
+.top-img-gif {
+  max-width: 520px;
+}
+
+.under {
+  border-bottom: dashed 1px #26ff00;
+  color: #ff6000;
+}
+
+.liquid-img-group-single[data-shadow-style="3"] .liquid-img-container-inner {
+  box-shadow: none;
+}
+
+.top-ai {
+  max-width: 200px;
+}
+
+.main-nav > li > a {
+  color: #fff;
+}
+
+.lqd-parallax-images-2 .liquid-img-group-container:first-child {
+  margin-bottom: 0px;
+}
+
+#content {
+  background-color: #fff0;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.wf-nicomoji {
+  font-family: "Nico Moji" !important;
+  display: inline;
+  font-size: 45px !important;
+  color: #fff;
+}
+
+.logo-haed {
+  max-width: 50px;
+  margin-bottom: 10px;
+}
+
+.is-stuck .wf-nicomoji {
+  color: black !important;
+}
+
+.ld-tm-img.text-center img.circle {
+  width: 190px;
+}
+
+.fancy-box-classes {
+  box-shadow: 0 30px 50px rgb(0 0 0 / 7%);
+}
+
+.btn-apo-bg {
+  background: #4762ff;
+  width: 100%;
+}
+
+.btn-now-bg {
+  background: rgb(255 255 255 / 0%);
+  border: 1px solid #4762ff !important;
+  color: #4762ff !important;
+  width: 100%;
+  border-radius: 15px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+}
+
+@keyframes bggradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .lqd-parallax-images-2 .liquid-img-group-container:last-child {
+    bottom: 69px;
+    left: -7%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand-inner img {
+    width: 166px;
+  }
+
+  .sp-none {
+    display: none;
+  }
+
+  .wf-nicomoji {
+    color: #211e37;
+    font-size: 35px !important;
+  }
+
+  .lqd-parallax-images-3 .liquid-img-group-single:last-child {
+    top: -38%;
+  }
+
+  .head-btn {
+    background-color: #3f60ab;
+    color: #fff;
+    border-radius: 52px;
+    font-size: 11.5px;
+    border: none;
+    font-weight: 700;
+    margin-top: 4px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 11%);
+  }
+
+  a:hover {
+    color: #fff !important;
+  }
+
+  .backgroundcliptext .ld-gradient-heading .split-inner {
+    line-height: 2.6em;
+  }
+
+  .will-change {
+    will-change: transform, opacity 1;
+  }
+
+  .top-op {
+    z-index: -1;
+  }
+
+  .top-body {
+    background: #1a2963;
+    padding: 5px;
+    color: #fff;
+  }
+
+  .top-tag {
+    line-height: 1.2;
+  }
+
+  .top-bg {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .pc-none {
+    display: none;
+  }
+}
+
+.fancy-box-offer img {
+  max-width: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .fancy-box-offer .fancy-box-cell:first-child {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+  }
+
+  .lqd-parallax-images-3 .liquid-img-group-single:last-child {
+    left: 26%;
+  }
+
+  .lqd-parallax-images-3 .liquid-img-group-single:first-child {
+    margin-left: 0%;
+  }
+
+  .lqd-parallax-images-3 .liquid-img-group-single:last-child {
+    top: -29%;
+  }
+}

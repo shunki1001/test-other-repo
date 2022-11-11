@@ -1,0 +1,76 @@
+.custom_table td input {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.custom_table{
+    display: block;
+    min-width: 1000px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.87);
+    border-collapse: separate;
+    border-spacing: 0px 1em;
+    font-size: 0.765rem;
+}
+
+.custom_table th {
+    color: #000;
+    width: 10%;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+.custom_table th:nth-child(8){
+    width: 7.5%;
+    padding: 0;
+}
+
+.custom_table td {
+    padding: 0px 10px;
+    word-break: break-all;
+    
+}
+.custom_table td p{
+    overflow-y: auto;
+    max-height: 80px;
+    margin: 0;
+}
+
+.custom_table td:nth-child(-n+8){
+    border-top: 1px solid #B1B1B1;
+    border-bottom: 1px solid #B1B1B1;
+}
+.custom_table td:nth-child(1){
+    border-top: 1px solid #B1B1B1;
+    border-bottom: 1px solid #B1B1B1;
+    border-left: 1px solid #B1B1B1;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.custom_table td:nth-child(9){
+    border-top: 1px solid #B1B1B1;
+    border-bottom: 1px solid #B1B1B1;
+    border-right: 1px solid #B1B1B1;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+
+.button_group{
+    padding: 8px;
+}
+.button_group button{
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+.button_group button:hover{
+    border-bottom: 2px solid #4357C9;
+}
+
+.pagination{
+    text-align: right;
+}

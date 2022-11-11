@@ -1,0 +1,14 @@
+/node_modules
+
+.env
+/build
+
+/google-api/node_modules
+/mail-sender/node_modules
+
+/iframe-test
+/mail-sender
+/non-app-src
+/non-app-src2
+/user-enterprise-page
+/user-iframe

@@ -1,0 +1,47 @@
+.save_button{
+    position: sticky;
+    top: 88%;
+    z-index: 100;
+    text-align: right;
+    padding-right: 2em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 1024px) {
+    .person_setting{
+        height: 65vh;
+        overflow: auto;
+    }    
+    .top_container{
+        height: 10vh;
+    }
+    .margin_control{
+        margin-top: 10px;
+    }
+    .save_button{
+        position: fixed;
+        left: 60%;
+    }
+    .avatar{
+        width: 9vh !important;
+        height: 9vh !important;
+    }
+    .thumbnail{
+        width: 15vh !important;
+        height: 9vh !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .margin_control{
+        margin-top: -14px;
+    }
+    .avatar{
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .thumbnail{
+        width: 120px !important;
+        height: 78px !important;
+    }
+}

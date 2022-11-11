@@ -1,0 +1,30 @@
+/* clsxで指定したcss */
+
+.activated{
+    border-bottom: 2px solid #4357C9 !important;
+}
+
+.custom_state1 div{
+    color: #2D92FE;
+    background: #E8FDFF;
+    padding: 1px 0.5em;
+    border-radius: 10px;
+}
+.custom_state2 div{
+    color: #1DBC9C;
+    background: #D9FEC7;
+    padding: 1px 0.5em;
+    border-radius: 10px;
+}
+.custom_state3 div{
+    color: #C97F00;
+    background: #FFF5A5;
+    padding: 1px 0.5em;
+    border-radius: 10px;
+}
+.custom_state4 div{
+    color: #fff;
+    background: #FF5555;
+    padding: 1px 0.5em;
+    border-radius: 10px;
+}
